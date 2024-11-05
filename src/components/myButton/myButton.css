@@ -1,0 +1,17 @@
+.my-button {
+    background-color: rgb(233, 132, 31);
+    cursor: pointer;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #f61717;
+}
+
+/* .my-button:hover {
+    background-color: rgb(192, 104, 16);
+} */
