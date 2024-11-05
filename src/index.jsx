@@ -4,7 +4,9 @@ import './index.css';
 import Lesson01 from './lessons/lesson01/Lesson01';
 // Импорт функции компонента
 // import Lesson02 from "./lessons/lesson02/Lesson02";
-import Lesson03 from './lessons/lesson03/Lesson03';
+// import Lesson03 from './lessons/lesson03/Lesson03';
+// import Homework03 from './homeworks/homework03/Homework03';
+import Lesson04 from "./lessons/lesson04/Lesson04";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +16,10 @@ root.render(
    <>
         <Lesson01 />
         {/* <Lesson02 /> */}
-        <Lesson03 />
+        {/* <Lesson03 /> */}
+        {/* <Homework03 /> */}
+        <Lesson04 />
+
    </> 
 
 );

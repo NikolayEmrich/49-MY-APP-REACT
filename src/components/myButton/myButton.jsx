@@ -14,13 +14,19 @@
 
 //  ------ ВАРИАНТ КОДА С ДЕСТРУКТУРИЗАЦИЕЙ ------
 // Забираем значения из объекта по ключам и кладем их в переменные с определенным именем в одну строчку
-   import './myButton.css'
+import './myButton.css'
 
-function MyButton({func, isDanger, text}) {
+const handleDefaultClick = () => {
+     console.log('default click!')
+}
+
+function MyButton({func = handleDefaultClick, isDanger = true, text = 'Click', myType = 'button'}) {
      console.log(isDanger)
      return <button 
-          onClick={func} 
-          className={`my-button ${isDanger ? 'btn-danger' : ''}`}>{text}
+          type = {myType}
+          onClick = {func} 
+          className = {`my-button ${isDanger ? 'btn-danger' : 'btn-primary'}`}>
+          {text}
      </button>;
 }
 
