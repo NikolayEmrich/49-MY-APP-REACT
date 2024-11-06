@@ -66,6 +66,8 @@ function Lesson04() {
     setItems(items.filter((_,index) => index !== 0))
     // дописали элемент в начало
     setItems(items => [4, ...items])
+    // Добавляем 4-ку в конец массива
+    // setItems([...items, 4])
   };
 
   console.log(items)
@@ -102,6 +104,8 @@ function Lesson04() {
         </div>
         <p>Изменение массива:</p>
         <div>
+          {/* Для функции с добавлением 4-ки в конец массива */}
+          {/* <span>{items[0]}, {items[1]}, {items[2]}, {items[3]}</span> */}
           <span>{items[0]}, {items[1]}, {items[2]}</span>
           <MyButton func={handleChangeArray} text={"Change first number"} />
         </div>
