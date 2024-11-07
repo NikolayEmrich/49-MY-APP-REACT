@@ -8,7 +8,8 @@ import './index.css';
 // import Homework03 from './homeworks/homework03/Homework03';
 // import Lesson04 from "./lessons/lesson04/Lesson04";
 // import Homework04 from './homeworks/homework04/Homework04';
-import Lesson05 from './lessons/lesson05/Lesson05';
+// import Lesson05 from './lessons/lesson05/Lesson05';
+import Homework05 from './homeworks/homework05/Homework05';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +23,8 @@ root.render(
         {/* <Homework03 /> */}
         {/* <Lesson04 /> */}
         {/* <Homework04/> */}
-        <Lesson05/>
+        {/* <Lesson05/> */}
+        <Homework05/>
 
    </> 
 
